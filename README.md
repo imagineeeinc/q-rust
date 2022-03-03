@@ -34,7 +34,7 @@ qrust dosn't support input from std, so for that reason we provide a json based 
 
 JSON options:
 
-```json
+```
 {
 	"file": "path to rust file.rs",
 	"watch": false || true,
@@ -45,3 +45,5 @@ JSON options:
 you then access these variables through the `<%QRS_...%>` keyword, where the `...` is the var name.
 
 you can run a json by swapping the file in the run command with the json location and adding the `--json` argument.
+
+check out examples on using it [here](https://github.com/imagineeeinc/q-rust/tree/main/example)
