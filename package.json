@@ -1,0 +1,38 @@
+{
+  "name": "q-rust",
+  "version": "0.1.0",
+  "description": "a light weight alternative to rust with a lot of native features missing",
+  "main": "src/qrust.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "qrust": "./src/bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagineeeinc/q-rust.git"
+  },
+  "keywords": [
+    "quick-rust",
+    "qrust",
+    "q-rust",
+    "rust",
+    "rust-lang",
+    "rust-language",
+    "rust-programing",
+    "rust-programing-language"
+  ],
+  "author": "imagineeeinc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imagineeeinc/q-rust/issues"
+  },
+  "homepage": "https://github.com/imagineeeinc/q-rust#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "node-fetch": "^3.2.0",
+    "prompt-sync": "^4.2.0",
+    "yargs": "^17.3.1"
+  }
+}

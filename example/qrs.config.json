@@ -1,0 +1,5 @@
+{
+	"file": "./main.rs",
+	"watch": false,
+	"var": ["name"]
+}
